@@ -1,4 +1,4 @@
 vortexDiameter 1.0
-vortexSeparation 1.0
-timeStep 0.001
-timeEnd 60.0
+vortexSeparation 0.5
+timeStep 0.0005
+timeEnd 40.0

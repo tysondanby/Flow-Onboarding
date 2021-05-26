@@ -1,0 +1,47 @@
+\documentclass{article}
+\begin{document}
+
+\begin{center}
+	{\LARGE Flow Onboarding Project}
+\end{center}	
+\begin{center}
+	{\large by Tyson Danby}
+\\\end{center}
+
+\begin{small}
+{\large \textbf{\begin{flushleft}
+			Introduction:
+\end{flushleft}}}
+
+	
+	
+Vortexes are essentially regions of a fluid that circle about some axis. A vortex can also be ring shaped, much like the rings seen during a nuclear blast or from smoke rings. These rings are self-propelling, and, if undisturbed, can continue along their trajectory for some time. This project investigates a phenomenon called, "vortex leapfrogging." This is observed whenever there are two vortex rings traveling in the same direction, one slightly behind the other. Due to the circulation of fluid around the rings, the front vortex ring will pull the other ring through its center until the ring from behind is now in front. The rings return to their original size, and this leapfrogging phenomenon continues. 
+
+{\large \textbf{\begin{flushleft}
+			Methodology:
+\end{flushleft}}}
+
+This Project seeks to better understand vortex leapfrogging. In order to do this, a computational model was created to represent this phenomenon.
+
+The model was made using the Julia programming language. With use of user-defined variable types, the properties for each vortex could be stored in a variable, and those properties could be modified withing the code. For simplicity, each vortex ring was represented by two separate vortexes of opposite circulation on opposing ends of each ring. An Euler step method was used to predict the paths of  vortex rings. These paths were then plotted in 3D space. With these plots, an animation was made which shows how the vortex rings move in three-dimensional space throughout time.
+
+Several different diameters and spacings of vortexes were simulated to investigate resulting patterns in the vortex leapfrogging phenomenon.
+
+{\large \textbf{\begin{flushleft}
+			Results:
+\end{flushleft}}}
+
+The vortex ring simulation gives demonstrated a few patterns on the leapfrogging phenomenon. When the rings were placed closer together, a couple of things happened. Namely, the rings leapfrogged at a higher frequency, and traveled on average slightly faster than others spaced farther apart. It was also observed that smaller vortex ring pairs traveled at a noticeably higher average speed than larger rings. It did however appear that ring size had no effect on the frequency of leapfrogging.\\
+\\
+\\
+\\
+\\
+\\
+
+{\large \textbf{\begin{flushleft}
+			Discussion:
+\end{flushleft}}}
+
+This project provides insight on how fluid vortexes behave. It gives particular insight into how vortex ring leapfrogging frequency and average velocity can be influenced by the size and spacing of vortex rings. This knowledge could be useful anywhere where vortexes, particularly vortex rings, are encountered. It would be important to know whether a design could generate vortex rings. If so, analysis should be done on the effects and behavior of these rings. Insight gained from this project would provide a baseline for understanding these effects and behaviors. Beforehand, however, more testing and research into this topic should be performed to ensure understanding of and accurate prediction of the behavior and effects of vortex rings.
+\end{small}
+\end{document}
